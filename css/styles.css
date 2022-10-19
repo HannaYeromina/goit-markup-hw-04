@@ -316,6 +316,9 @@ header {
 .footer-address-contact li:last-child {
     margin-bottom: 0;
 }
+.box-footer-margin {
+    margin-right: 70px;
+}
 .address-footer  {
     font-size: 14px;
     line-height: 24px;
@@ -364,13 +367,10 @@ header {
     text-transform: uppercase;
     margin-bottom: 20px;
 }
-.footer-network {
-    width: 206px;
-    height: 80px;
-    margin: 0;
-    padding: 0;
-    margin-right: 878px;
-} 
+.employees-networks-footer {
+    display: flex;
+    justify-content: space-evenly;
+}
 .box-network-footer {
     display: flex;
     justify-content: center;
@@ -390,10 +390,6 @@ header {
 .box-network-m:last-child {
     margin-right: 0;
     
-}
-.employees-networks-footer {
-    display: flex;
-    justify-content: space-evenly;
 }
 .button-box{
     display: flex;
