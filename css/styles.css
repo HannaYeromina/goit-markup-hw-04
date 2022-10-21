@@ -251,12 +251,13 @@ header {
     letter-spacing: 0.03em;
     color: #757575;
     text-align: center;
-    padding-bottom: 30px;
+    margin-bottom: 16px;
 }
 .employees-networks {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     padding-bottom: 30px;
+    gap: 10px;
    
 }
 .box-network {
